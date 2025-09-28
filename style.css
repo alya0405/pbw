@@ -1,0 +1,127 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ffe6f0, #ffc1e3); /* gradasi pink muda */
+  color: #444;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #e8befc, #e75480); /* pink tua ke pink cerah */
+  color: white;
+  padding: 25px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-shadow: 2px 4px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  border-bottom: 4px solid #ffd3ef;
+  transform: perspective(1000px) rotateX(5deg);
+}
+
+/* Navigasi */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 8px;
+  background: rgba(255, 182, 193, 0.4);
+  transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+}
+
+nav a:hover {
+  background: #ffb6c1;
+  color: #fff0f5;
+  transform: translateY(-4px) scale(1.1);
+  box-shadow: 0 6px 12px rgba(255, 105, 180, 0.4);
+}
+
+/* Konten Utama */
+main {
+  padding: 30px;
+  text-align: center;
+}
+
+/* Foto Profil */
+.foto-profil {
+  width: 160px;
+  border-radius: 50%;
+  margin: 20px 0;
+  box-shadow: 0 12px 25px rgba(255, 105, 180, 0.5);
+  transition: transform 0.6s;
+}
+
+.foto-profil:hover {
+  transform: rotateY(20deg) scale(1.08);
+}
+
+/* Table 3D */
+table {
+  width: 70%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  transform: perspective(1000px) rotateX(3deg);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+table:hover {
+  transform: perspective(1000px) rotateX(0deg) scale(1.03);
+  box-shadow: 0 15px 30px rgba(255, 105, 180, 0.4);
+}
+
+th {
+  background: linear-gradient(135deg, #ffb6c1, #ff80ab);
+  color: white;
+  padding: 12px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+td {
+  padding: 12px;
+  background: #fff0f5; /* pink sangat muda */
+}
+
+/* List Hobi */
+ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+  margin: 20px auto;
+}
+
+ul li {
+  background: linear-gradient(135deg, #fff, #ffe6f0);
+  margin: 10px 0;
+  padding: 12px 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+ul li:hover {
+  transform: translateY(-8px) rotateX(8deg);
+  box-shadow: 0 15px 25px rgba(255, 105, 180, 0.3);
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(135deg, #dba1f7, #ff80ab);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+  box-shadow: 0 -6px 15px rgba(0,0,0,0.3);
+}
